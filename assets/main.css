@@ -2,7 +2,7 @@
 body {
   background-color: black;
   text-decoration: none;
-  margin: 50px;
+  margin: 10px 20px;
   line-height: 2;
   font-size: 1.5rem;
   color: white;
@@ -40,7 +40,7 @@ nav {
   text-decoration: none;
 }
 
-.button1:active {
+.button1.pressed {
   color: black;
   background-color: white;
   text-decoration: none;
