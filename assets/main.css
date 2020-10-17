@@ -45,6 +45,12 @@ a:hover {
   text-decoration: none;
 }
 
+#selected {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+
 p {
   color: white
 }
