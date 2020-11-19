@@ -16,7 +16,7 @@ header {
   text-align: center;
 }
 
-#topnav li {
+#topnav li{
   display: inline;
   margin: 0;
   margin-top: 0.5em;
@@ -28,7 +28,7 @@ header {
   padding: 30px;
 }
 
-a{
+a.top{
   text-decoration: none;
   padding: 30px;
   font-size: 1.5em;
@@ -39,7 +39,12 @@ a{
   transition-duration: 0.5s;
 }
 
-a:hover {
+a.intext{
+  text-decoration: none;
+  color: orange;
+}
+
+a.top:hover {
   color: black;
   background-color: white;
   text-decoration: none;
@@ -51,6 +56,16 @@ a:hover {
   text-decoration: none;
 }
 
-p {
-  color: white
+article {
+  text-align: left;
+  color: white;
+  line-height: 1.4;
+  margin: 2em auto 5em;
+  padding: 40px;
+  max-width: 700px;
+}
+
+.marginauto {
+  margin: 10px auto 20px;
+  display: block;
 }
