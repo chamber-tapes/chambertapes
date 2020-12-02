@@ -1,6 +1,8 @@
 /* Put your CSS here! */
 body {
-  background-color: black;
+  background-image: url('../assets/images/gradient-d1.jpg');
+  background-attachment: fixed;
+  background-size: cover;
   font-family: sans-serif;
   margin: 10px 20px;
 }
