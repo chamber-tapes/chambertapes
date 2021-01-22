@@ -1,8 +1,9 @@
 /* Put your CSS here! */
 body {
-  background-image: url('../assets/images/gradient-d1.jpg');
+  background-image: url('../assets/images/gradient-d2.jpg');
   background-attachment: fixed;
-  background-size: cover;
+  top: 0px;
+  left: 0px;
   font-family: sans-serif;
   margin: 10px 10px;
   z-index: -2;
@@ -49,6 +50,10 @@ a.top{
   border-radius: 50px;
   border: 2px solid white;
   transition-duration: 0.5s;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto
 }
 
 a.intext{
