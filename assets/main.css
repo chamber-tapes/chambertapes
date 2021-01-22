@@ -4,41 +4,49 @@ body {
   background-attachment: fixed;
   background-size: cover;
   font-family: sans-serif;
-  margin: 10px 20px;
+  margin: 10px 10px;
+  z-index: -2;
 }
 
 header {
   text-align: center;
 }
 
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+}
+
 #topnav ul{
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  display: block;
   text-align: center;
   position: fixed;
-  float: left;
-  left: 34%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #topnav li{
   display: inline;
-  margin: 0;
-  margin-top: 0.5em;
 }
 
 
 #topnav a{
   display: inline-block;
-  padding: 30px;
+  padding: 20px;
+  margin: 10px;
 }
 
 a.top{
   text-decoration: none;
-  padding: 30px;
+  padding: 20px;
   font-size: 1.5em;
   color: white;
-  border-radius: 20px;
+  border-radius: 50px;
   border: 2px solid white;
   transition-duration: 0.5s;
 }
@@ -58,6 +66,13 @@ a.top:hover {
   color: black;
   background-color: white;
   text-decoration: none;
+}
+
+#logo {
+  position: fixed;
+  width: 300px;
+  top: 40px;
+  right: 30px;
 }
 
 article {
