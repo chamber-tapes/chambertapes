@@ -25,9 +25,7 @@ image(img, windowWidth/2, windowHeight/2, 800, 800);
 
 if (mouseX < windowWidth/2 && mouseX > windowWidth/5){
     s = map(mouseY, 0, windowHeight, 95, 20);
-    d = map(mouseX, 0, windowWidth, 20, 95);
-    // s = 45;
-    // d = 45;
+    d = map(mouseX, windowWidth/5, windowWidth/2, 90, 25);
 
     // r = map(mouseY, 0, windowHeight, 255, 0);
     // b = map(mouseX, windowWidth/5, windowWidth/2, 0, 255);
@@ -53,11 +51,8 @@ if (mouseX < windowWidth/2 && mouseX > windowWidth/5){
  }
 
  if (mouseX > windowWidth/2 && mouseX < (windowWidth - windowWidth/5)) {
-   s = map(mouseX, windowWidth/2, windowWidth, 20, 95);
-   d = map(mouseX, windowWidth/2, windowWidth, 95, 20);
-
-   // s = 45;
-   // d = 45;
+   s = map(mouseY, 0, windowHeight, 90, 25);
+   d = map(mouseX, windowWidth/2,(windowWidth - windowWidth/5), 25, 90);
 
    // r = map(mouseY, 0, windowHeight, 0, 255);
    // b = map(mouseX, windowWidth/2, (windowWidth - windowWidth/5), 255, 0);

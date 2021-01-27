@@ -5,7 +5,6 @@ body {
   top: 0px;
   left: 0px;
   font-family: sans-serif;
-  margin: 10px 10px;
   z-index: -2;
 }
 
@@ -39,7 +38,6 @@ canvas {
 #topnav a{
   display: inline-block;
   padding: 20px;
-  margin: 10px;
 }
 
 a.top{
@@ -68,6 +66,26 @@ a.top:hover {
 }
 
 #selected {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+
+.artist-buttons {
+  text-decoration: none;
+  padding: 20px;
+  font-size: 1.5em;
+  color: white;
+  border-radius: 50px;
+  border: 2px solid white;
+  transition-duration: 0.5s;
+  display: inline-block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.artist-buttons:hover {
   color: black;
   background-color: white;
   text-decoration: none;
